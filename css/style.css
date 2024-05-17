@@ -20,11 +20,11 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav ul li {
-    display: inline;
     margin-left: 15px;
 }
 
@@ -79,7 +79,7 @@ footer {
 
 @media (max-width: 768px) {
     nav ul {
-        text-align: center;
+        justify-content: center;
     }
 
     .bio-container {

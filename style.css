@@ -97,10 +97,10 @@ footer {
 }
 
 .profile-photo {
-    width: 300px;
+    width: 600px;
     height: auto;
-    border-radius: 75px; /* Circular image */
-    margin: 20px;
+    border-radius: 100px; /* Circular image */
+    margin: 30px;
 }
 
 

@@ -82,3 +82,7 @@ footer {
         margin-right: 0; /* Remove right margin */
     }
 }
+
+#social-media a {
+    margin: 0 20px; /* Increase the horizontal margin to add more space between icons */
+}

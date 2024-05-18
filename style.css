@@ -95,3 +95,12 @@ footer {
         justify-content: center;
     }
 }
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 75px; /* Circular image */
+    margin: 20px;
+}
+
+

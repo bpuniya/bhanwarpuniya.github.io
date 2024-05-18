@@ -54,9 +54,9 @@ footer {
 }
 
 #about img {
-    width: 600px;
+    width: 900px;
     height: auto;
-    border-radius: 150px; /* Circular image */
+    border-radius: 300px; /* Circular image */
     margin-right: 20px; /* Adds space between the image and the text */
 }
 

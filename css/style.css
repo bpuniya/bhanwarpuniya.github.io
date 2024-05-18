@@ -1,97 +1,64 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333;
+    background: #f4f4f4;
+}
+
+header, section, footer {
+    padding: 20px;
 }
 
 header {
-    background-color: #333;
+    background: #333;
     color: #fff;
-    padding: 15px 0;
+    text-align: center;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.logo {
-    float: left;
-}
-
-nav {
-    float: right;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
+header nav ul {
+    list-style: none;
     padding: 0;
-    display: flex;
-    gap: 20px;
 }
 
-nav ul li {
-    margin: 0;
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
 }
 
-nav ul li a {
+header nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-weight: 700;
-    padding: 10px 15px;
-    transition: background-color 0.3s;
 }
 
-nav ul li a:hover {
-    background-color: #555;
-    border-radius: 5px;
-}
-
-main {
-    padding: 20px 0;
-}
-
-.section {
-    padding: 50px 0;
-}
-
-.content {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.image img {
-    max-width: 200px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.text {
-    max-width: 600px;
-    text-align: left;
+section {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
     text-align: center;
-    padding: 15px 0;
+    padding: 10px;
+    background: #333;
+    color: #fff;
 }
 
-@media (max-width: 768px) {
-    .logo, nav {
-        float: none;
+@media (max-width: 600px) {
+    header nav ul {
         text-align: center;
     }
-
-    .content {
-        flex-direction: column;
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
     }
+}
 
-    nav ul {
-        justify-content: center;
-    }
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 75px; /* Circular image */
+    margin: 20px;
 }

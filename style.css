@@ -81,7 +81,7 @@ footer {
     padding: 15px 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .logo, nav {
         float: none;
         text-align: center;
@@ -97,7 +97,7 @@ footer {
 }
 
 .profile-photo {
-    width: 150px;
+    width: 300px;
     height: auto;
     border-radius: 75px; /* Circular image */
     margin: 20px;

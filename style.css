@@ -65,7 +65,7 @@ main {
 
 .image img {
     max-width: 500px;
-    border-radius: 50%;
+    border-radius: 50%;/* Circular image */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 

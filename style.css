@@ -65,13 +65,13 @@ main {
 
 .image img {
     max-width: 500px;
-    border-radius: 50%;/* Circular image */
+    border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .text {
     max-width: 600px;
-    text-align: left;
+    text-align: right;
 }
 
 footer {

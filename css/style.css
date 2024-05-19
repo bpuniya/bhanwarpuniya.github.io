@@ -17,6 +17,12 @@ header {
     text-align: center;
 }
 
+header nav {
+    display: flex;
+    justify-content: flex-end; /* Aligns navigation items to the right */
+}
+
+
 header nav ul {
     list-style: none;
     padding: 0;

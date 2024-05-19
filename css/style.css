@@ -14,7 +14,7 @@ header, section, footer {
 header {
     background: #2f4f4f;
     color: #fff;
-    text-align: center;
+    text-align: left;
 }
 
 header nav ul {
